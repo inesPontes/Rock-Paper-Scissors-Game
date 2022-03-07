@@ -1,3 +1,60 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7e0d6;
+  max-width: 880px;
+  border-radius: 10px;
+}
+
 h1 {
-  color: red;
+  color: black;
+  padding: 30px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  padding: 20px;
+}
+
+.row {
+  text-align: center;
+  padding: 20px;
+}
+
+.weapon {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 30 px;
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 8%;
+  margin: 10px 20px;
+}
+
+.btnR {
+  background-color: #f67280;
+  transition: all 200ms ease;
+}
+
+.btnP {
+  background-color: #c06c84;
+  transition: all 200ms ease;
+}
+
+.btnS {
+  background-color: #6c5b7c;
+  transition: all 200ms ease;
+}
+
+.button:focus {
+  background-color: #f8b595;
+}
+
+.button:hover {
+  background-color: #f8b595;
+  cursor: pointer;
 }
