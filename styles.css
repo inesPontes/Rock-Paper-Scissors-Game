@@ -85,4 +85,10 @@ hr {
   .container {
     margin: 0;
   }
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 800px;
+  }
 } ;
