@@ -4,7 +4,8 @@
   width: 800px;
   height: 700px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 h1 {
@@ -12,6 +13,15 @@ h1 {
   padding: 30px;
   padding-top: 50px;
   text-align: center;
+}
+
+span {
+  font-size: 28px;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .results {
@@ -23,13 +33,12 @@ h1 {
 
 .result {
   text-align: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 .weapon {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  padding: 40 px;
   margin-bottom: 40px;
 }
 
