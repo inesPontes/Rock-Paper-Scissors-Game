@@ -1,8 +1,10 @@
 .container {
   font-family: "Montserrat", sans-serif;
   background-color: #f7e0d6;
-  max-width: 880px;
+  width: 800px;
+  height: 800px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 h1 {
@@ -12,12 +14,13 @@ h1 {
   text-align: center;
 }
 
-.result {
-  text-align: center;
+.results {
+  display: flex;
+  justify-content: space-around;
   padding: 20px;
 }
 
-.row {
+.result {
   text-align: center;
   padding: 20px;
 }
@@ -33,6 +36,7 @@ h1 {
   padding: 10px;
   border-radius: 8%;
   margin: 10px 20px;
+  border-color: white;
 }
 
 .btnR {
